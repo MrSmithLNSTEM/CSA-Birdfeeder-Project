@@ -3,3 +3,4 @@ AP CSA Project: "Birdfeeder" [UNITS 1 &amp; 2 COVERED]
 
 
 SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE WRITTEN IN JAVA.
+Please see Canvas for a full description of your project.
