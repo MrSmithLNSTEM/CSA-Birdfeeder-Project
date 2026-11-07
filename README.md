@@ -1,5 +1,5 @@
 # Birdfeeder-Project
-AP CSA Project: "Birdfeeder" [UNITS 1 &amp; 2 COVERED]
+AP CSA Project: "Birdfeeder"
 
 
 SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE WRITTEN IN JAVA.
