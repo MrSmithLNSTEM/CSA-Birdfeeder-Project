@@ -18,6 +18,18 @@ bird feeder,
 public void simulateOneDay(int numBirds)
 {  
     /* to be implemented in part (a) */
+    double condition = Math.random();
+    if(condition < 0.05){
+        currentFood = 0;
+    } else {
+        int eachBirdEats = (int)(Math.random() * 41) + 10;
+        int totalEaten = numBirds * eachBirdEats;
+        if (totalEaten > currentFood){
+            currentFood = 0;
+        } else {
+            currentFood -= totalEaten;
+        }
+    }
 }
 
 
@@ -27,10 +39,10 @@ the feeder in this simulation,
 * as described in part (b)
 * Preconditions: numBirds > 0, numDays > 0
 */
-public int simulateManyDays(int numBirds, int numDays)
-{ 
-    /* to be implemented in part (b) */ 
-}
+// public int simulateManyDays(int numBirds, int numDays)
+// { 
+//     /* to be implemented in part (b) */ 
+// }
 
 // There may be instance variables, constructors, or methods that
 //are not shown.
